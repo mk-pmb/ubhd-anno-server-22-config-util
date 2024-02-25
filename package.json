@@ -1,5 +1,5 @@
 { "name": "ubhd-anno-server-22-config-util",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Tools that the Heidelberg University Library uses for maintaining config files for their `anno-server-22` instances.",
   "keywords": [],
 
@@ -20,7 +20,7 @@
   "private": true, "license": "MIT",
 
   "main": "package.json",
-  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "scripts": { "test": "elp && bash test/all.sh" },
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 

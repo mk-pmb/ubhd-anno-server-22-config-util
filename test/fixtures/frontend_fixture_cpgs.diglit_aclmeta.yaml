@@ -1,0 +1,27 @@
+%YAML 1.2
+# -*- coding: UTF-8, tab-width: 2 -*-
+---
+^:
+
+  'cpg148':
+    sammlung: 2
+    gnt_oai_UBHD: 'UBHD'
+    gnt_oai_bibliotheca_palatina: 'bibliotheca_palatina'
+    gnt_oai_handschriften: 'handschriften'
+    gnt_oai_leo-bw: 'leo-bw'
+
+  'cpg389':
+    sammlung: 2
+    gnt_oai_UBHD: 'UBHD'
+    gnt_oai_Welscher_Gast: 'Welscher_Gast'
+    gnt_oai_bibliotheca_palatina: 'bibliotheca_palatina'
+    gnt_oai_handschriften: 'handschriften'
+    gnt_oai_leo-bw: 'leo-bw'
+
+  'cpgraec23':
+    sammlung: 34
+    gnt_oai_UBHD: 'UBHD'
+    gnt_oai_bibliotheca_palatina: 'bibliotheca_palatina'
+    gnt_oai_handschriften: 'handschriften'
+
+...

@@ -14,8 +14,16 @@ for their `anno-server-22` instances.
 Usage
 -----
 
-:TODO:
-
+1.  Open a shell in the repo directory.
+1.  Obtain an `annoMetadataYAML` file: If you know the secret update URL,
+    download it; otherwise, you may use
+    `test/fixtures/frontend_fixture_cpgs.input.yaml`.
+1.  Move, copy or symlink it to/as `cache/annoMetadataYAML.latest.txt`.
+    * The `.txt` is for devel workflow reasons.
+      You can change the path by setting the `ORIG_YAML` env var.
+1.  Run `./src/convert_anno_metadata.sh`
+1.  Output filenames will be logged.
+1.  The last log message should be `All done.`
 
 
 <!--#toc stop="scan" -->
