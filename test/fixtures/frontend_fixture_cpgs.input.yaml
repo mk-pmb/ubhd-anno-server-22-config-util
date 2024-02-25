@@ -1,0 +1,29 @@
+%YAML 1.2
+# -*- coding: UTF-8, tab-width: 2 -*-
+---
+
+'cpg148':
+  sammlung: 2
+  oaisets:
+    - UBHD
+    - bibliotheca_palatina
+    - handschriften
+    - leo-bw
+
+'cpg389':
+  sammlung: 2
+  oaisets:
+    - UBHD
+    - Welscher_Gast
+    - bibliotheca_palatina
+    - handschriften
+    - leo-bw
+
+'cpgraec23':
+  sammlung: 34
+  oaisets:
+    - UBHD
+    - bibliotheca_palatina
+    - handschriften
+
+...
