@@ -1,0 +1,6 @@
+# -*- coding: utf-8, tab-width: 2 -*-
+
+CFG[metadata_url]="https://$(hostname --fqdn)/diglit-metadata.latest.yaml"
+# CFG[metadata_url]='https://github.com/mk-pmb/ubhd-anno-server-22-config-util/raw/master/test/fixtures/frontend_fixture_cpgs.diglit_aclmeta.yaml'
+CFG[dest_file]='../../custom_data/diglit_aclmeta.yaml'
+CFG[shutdown_url]='http://localhost:33321/admin/shutdown'
